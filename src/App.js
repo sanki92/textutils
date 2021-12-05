@@ -13,8 +13,6 @@ import Alert from './Alert';
 
 function App() {
   const [alert, setAlert] = useState(null)
-  document.body.style.background="linear-gradient(0deg, rgba(69,54,54,0.9948354341736695) 0%, rgba(89,6,6,1) 21%, rgba(101,10,10,1) 59%, rgba(0,0,0,0.896796218487395) 100%) no-repeat fixed center";
-  document.body.style.color="rgba(255,255,255,.55)";
   const [mode, setMode] = useState("light");
   document.body.style.fontFamily="calibri"
   document.body.style.transition="all 2s"
