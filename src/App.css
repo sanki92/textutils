@@ -17,9 +17,15 @@
     border: .5px solid rgb(253, 253, 253);
 
 }
-#navbarNav p:nth-child(2){
+.collapse p:nth-child(2){
 font-weight: bold;
 }
 .form-check-label{
     font-style: italic;
+}
+@media (max-width:990px) {
+    .nav-item .nav-link{
+        margin-left: 1rem;
+        font-size: 1.6rem;
+    }
 }
